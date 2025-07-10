@@ -1,0 +1,27 @@
+# File konfigurasi dan kredensial 
+.env
+config
+
+# File log 
+logs/
+*.log
+
+# File sementara dari sistem/IDE 
+*.pyc
+__pycache__/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoint 
+.ipynb_checkpoints/
+
+# File/output temporer 
+*.tmp
+*.bak
+
+docs
+notebooks
+main.py
+data
